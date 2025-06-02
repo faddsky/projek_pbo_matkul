@@ -15,20 +15,29 @@ public class Lingkaran extends Bangun2d implements Runnable{
     public double keliling;
     
     public Lingkaran(double jariJari) {
-        this.jariJari = jariJari;
-        this.luas = hitungLuas();
-        this.keliling = hitungKeliling();
+        jariJari = jariJari;
+        
     }
 
     @Override
     public double hitungLuas() {
-        luas = Lingkaran.PI * (this.jariJari * this.jariJari);
+        luas = Lingkaran.PI * jariJari * jariJari;
         return luas;
     }
 
     @Override
     public double hitungKeliling() {
-        keliling = Lingkaran.PI * this.jariJari * 2;
+        keliling = Lingkaran.PI * jariJari * 2;
+        return keliling;
+    }
+    
+    public double hitungLuas(double jariJaribaru) {
+        luas = Lingkaran.PI * jariJaribaru * jariJari;
+        return luas;
+    }
+
+    public double hitungKeliling(double jariJaribaru) {
+        keliling = Lingkaran.PI * jariJaribaru * 2;
         return keliling;
     }
 

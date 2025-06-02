@@ -20,13 +20,18 @@ public class Bola extends Lingkaran {
     }
     
     public double hitungVolume() {
-        volume = Math.pow(this.jariJari, 3) * Lingkaran.PI * 4 / 3;
+        volume =  4 / 3 * jariJari * super.luas;
         return volume;
     }
     
     public double hitungLuasPermukaan() {
-        luasPermukaan = Math.pow(this.jariJari, 2) * Lingkaran.PI * 4;
+        luasPermukaan =  4 * super.luas;
         return luasPermukaan;
+    }
+    
+    public double hitungVolume(double jariJaribaru) {
+        volume =  4 / 3 * PI *jariJaribaru * super.luas;
+        return volume;
     }
     
     @Override
