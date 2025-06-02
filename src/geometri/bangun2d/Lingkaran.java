@@ -8,7 +8,7 @@ package geometri.bangun2d;
  *
  * @author Rendi wahyu
  */
-public class Lingkaran implements Bangun2d, Runnable {
+public class Lingkaran extends Bangun2d implements Runnable{
     public static final double PI = 3.14;
     public double jariJari;
     public double luas;

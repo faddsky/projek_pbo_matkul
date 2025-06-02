@@ -8,7 +8,7 @@ package geometri.bangun2d;
  *
  * @author Rendi wahyu
  */
-public class Trapesium implements Bangun2d, Runnable {
+public class Trapesium extends Bangun2d implements Runnable {
     public double sisiAtas;
     public double sisiAlas;
     public double sisiMiringSatu;

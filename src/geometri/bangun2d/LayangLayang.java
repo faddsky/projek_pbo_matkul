@@ -8,7 +8,7 @@ package geometri.bangun2d;
  *
  * @author Rendi wahyu
  */
-public class LayangLayang implements Bangun2d, Runnable {
+public class LayangLayang extends Bangun2d implements Runnable {
     public double diagonalSatu;
     public double diagonalDua;
     public double sisiPendek;

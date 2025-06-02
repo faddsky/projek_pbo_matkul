@@ -8,7 +8,7 @@ package geometri.bangun2d;
  *
  * @author Rendi wahyu
  */
-public class Segitiga implements Bangun2d, Runnable {
+public class Segitiga extends Bangun2d implements Runnable {
     public double sisiSatu;
     public double sisiDua;
     public double sisiAlas;

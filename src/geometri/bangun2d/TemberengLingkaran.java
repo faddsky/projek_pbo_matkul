@@ -8,7 +8,7 @@ package geometri.bangun2d;
  *
  * @author Rendi wahyu
  */
-public class TemberengLingkaran extends Lingkaran implements Runnable {
+public class TemberengLingkaran extends Lingkaran implements Runnable  {
     public double sudutTheta;
     public double luas;
     public double keliling;

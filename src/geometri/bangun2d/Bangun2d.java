@@ -8,7 +8,7 @@ package geometri.bangun2d;
  *
  * @author Rendi wahyu
  */
-public interface  Bangun2d {
-    double hitungLuas();
-    double hitungKeliling();
+public abstract class  Bangun2d {
+    abstract double hitungLuas();
+    abstract double hitungKeliling();
 }

@@ -8,7 +8,7 @@ package geometri.bangun2d;
  *
  * @author Rendi wahyu
  */
-public class BelahKetupat implements Bangun2d, Runnable {
+public class BelahKetupat extends Bangun2d implements Runnable {
     public double sisi;
     public double diagonalSatu;
     public double diagonalDua;

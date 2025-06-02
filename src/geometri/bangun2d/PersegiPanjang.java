@@ -8,7 +8,7 @@ package geometri.bangun2d;
  *
  * @author Rendi wahyu
  */
-public class PersegiPanjang implements Bangun2d, Runnable {
+public class PersegiPanjang extends Bangun2d implements Runnable {
     public double sisiPendek;
     public double sisiPanjang;
     public double luas;

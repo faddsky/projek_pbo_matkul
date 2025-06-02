@@ -8,7 +8,7 @@ package geometri.bangun2d;
  *
  * @author Rendi wahyu
  */
-public class JajarGenjang implements Bangun2d, Runnable {
+public class JajarGenjang extends Bangun2d implements Runnable {
     public double sisiDatar;
     public double sisiMiring;
     public double tinggi;
